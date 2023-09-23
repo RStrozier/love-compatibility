@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compatibility</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="is-size-1">Are We Compatible?</h1>
+    </header>
+
+    <div id="compat-container">
+        <div id="calculate-box">
+            <div id="yellow">
+            <h2 class="title is-1" id="main-header">Compatibility Checker</h2>
+            <div class="container" id="input-container" align="center">
+                <input id="fname-input" placeholder="My Name Is...">
+                <input id="sname-input" placeholder="Their Name Is...">
+            </div>
+            <div class="container" id="button-container" align="center">
+                <button class="button" id="calculate-btn">Calculate</button>
+                <button class="button" id="clear-btn">Clear Results</button>
+            </div>
+            <progress class="progress is-medium is-danger" max="100" id="progress-bar">30%</progress>
+        </div>
+        <div class="container" id="display-container" align="center">
+            <p id="percentage-display"></p>
+            <br>
+            <p id="result-display"></p>
+        </div>
+    </div>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
